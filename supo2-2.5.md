@@ -140,39 +140,3 @@ public Integer parmaxf(Interator<Record> it, int n) {
     return res;
 }
 ```
-
-## 2013 P3 Q7
-
-### (a)
-
-Class loader loads Java classes into the JVM dynamically during runtime. If a developer wants to load classes from elsewhere, such as from the network, then they would need to implement their own class loader.
-
-### (b)
-
-```java
-public class ClassFileSender {
-    
-    public static void main(String[] args) {
-        final String portStr = args[0];
-        final String path = args[1];
-        
-        final Integer port;
-        try {
-            port = Integer.parseInt(portStr);
-        } catch (NumberFormatException e) {
-            System.out.println("Wrong input, need integer for port!")
-        }
-        
-        
-        
-        
-    }
-    
-    ClassFileSender(String server, int port) {
-        
-    }
-    
-}
-
-
-```
