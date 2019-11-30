@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Finger",
+            "request": "launch",
+            "mainClass": "Finger",
+            "projectName": "further-java-part1b_c403a7d7"
+        }
+    ]
+}
